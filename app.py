@@ -102,7 +102,7 @@ if df is not None:
 
     # Exibir os dados processados
     st.write("Dados Processados:")
-    st.dataframe(resultado_final.head())
+    st.dataframe(resultado_final)
 
     # Exibir gráficos
     plot_graphs(resultado_final)
